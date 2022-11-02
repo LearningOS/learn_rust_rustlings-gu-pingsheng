@@ -20,5 +20,6 @@ jobs:
       - name: Install rustlings
         run: |
           cargo install --force --path .
+          cd learn_rust_rustlings-gu-pingsheng
           rustlings --help
       - uses: education/autograding@v1
